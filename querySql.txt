@@ -1,0 +1,60 @@
+**Judul: Kumpulan Query SQL untuk Database Perpustakaan (dbpus)**
+
+---
+
+## 1. Menampilkan Semua Data dari Setiap Tabel
+```sql
+SELECT * FROM tbanggota;
+SELECT * FROM tbbuku;
+SELECT * FROM tbtransaksi;
+SELECT * FROM tbuser;
+```
+
+## 2. Menampilkan Anggota Berdasarkan Jenis Kelamin
+```sql
+SELECT * FROM tbanggota WHERE jenisKelamin = 'Pria';
+SELECT * FROM tbanggota WHERE jenisKelamin = 'Wanita';
+```
+
+## 3. Mengurutkan Nama Anggota Secara Ascending dan Descending
+```sql
+SELECT * FROM tbanggota ORDER BY nama ASC;
+SELECT * FROM tbanggota ORDER BY nama DESC;
+```
+
+## 5. Menampilkan Buku yang Tersedia
+```sql
+SELECT * FROM tbbuku WHERE status = 'Tersedia';
+```
+
+## 8. Menampilkan Data Peminjaman Berdasarkan ID Anggota
+```sql
+SELECT * FROM tbtransaksi WHERE idAnggota = 'A001';
+```
+
+## 9. Menampilkan Transaksi dengan Tanggal Pinjam Tertentu
+```sql
+SELECT * FROM tbtransaksi WHERE tglpinjam = '2016-11-04';
+```
+
+## 10. Menampilkan Buku yang Ditulis oleh Pengarang Tertentu
+```sql
+SELECT * FROM tbbuku WHERE pengarang = 'Sutejo';
+```
+
+## 11. Menghitung Jumlah Anggota Berdasarkan Jenis Kelamin
+```sql
+SELECT jenisKelamin, COUNT(*) AS jumlah FROM tbanggota GROUP BY jenisKelamin;
+```
+
+## 12. Menghitung Jumlah Buku Berdasarkan Kategori
+```sql
+SELECT kategori, COUNT(*) AS jumlah FROM tbbuku GROUP BY kategori;
+```
+
+
+## 14. Menampilkan Data Buku dengan Penerbit Tertentu
+```sql
+SELECT * FROM tbbuku WHERE penerbit = 'Media Baca';
+```
+
