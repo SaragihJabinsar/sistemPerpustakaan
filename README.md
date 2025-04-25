@@ -32,7 +32,7 @@ Halo! Ini adalah proyek **Website Sistem Perpustakaan Digital** yang dibangun me
 
 ---
 
-## ❗ Note :  Ekstra terlebih dahulu File Vendor ZIP untuk menjalankan proses mencetaknya
+## ❗ Note :  Ekstra terlebih dahulu File Vendor ZIP untuk bisa menggunakan download datanya
 
 ### 1️⃣ Langkah Pertama: Download atau Clone Project
 
