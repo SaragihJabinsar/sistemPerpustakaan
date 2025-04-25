@@ -36,7 +36,7 @@ Halo! Ini adalah proyek **Website Sistem Perpustakaan Digital** yang dibangun me
 
 ### 1️⃣ Langkah Pertama: Download atau Clone Project
 
-Jika dalam bentuk ZIP, ekstrak dahulu:
+File vendor dalam bentuk ZIP, ekstrak dahulu:
 
 ```bash
 unzip vendor.zip
