@@ -28,11 +28,11 @@ Halo! Ini adalah proyek **Website Sistem Perpustakaan Digital** yang dibangun me
 ## 📸 Screenshot Tampilan
 **Tampilan Halaman Utama:**
 
-![Home Page](assets/img/homepage.png)
+![Home Page](dashboard/dashboard.png)
 
 ---
 
-## ❗ Note :  Ekstra dulu File Vendor ZIP untuk menjalankan proses mencetaknya
+## ❗ Note :  Ekstra terlebih dahulu File Vendor ZIP untuk menjalankan proses mencetaknya
 
 ### 1️⃣ Langkah Pertama: Download atau Clone Project
 
